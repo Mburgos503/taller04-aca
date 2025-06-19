@@ -1,0 +1,18 @@
+site_name: API de Gestión de Libros
+
+nav:
+  - Home: index.md
+  - Estructura: 1-estructura-api-libros.md
+  - CRUD: 2-crud-recursos.md
+  - Auth: 3-autenticacion.md
+
+theme:
+  name: material
+  language: es
+  features:
+    - content.tabs.link
+
+markdown_extensions:
+  - admonition
+  - pymdownx.superfences
+  - pymdownx.tabbed
